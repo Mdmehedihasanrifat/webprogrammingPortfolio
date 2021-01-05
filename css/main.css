@@ -21,6 +21,8 @@ header{
   margin-left: 5%;
   padding: 3%;
   color:white;
+  animation: slidein;
+  animation-duration: 3s;
 
 
 
@@ -71,7 +73,7 @@ header nav ul li a{
 
   padding: 10px;
   height: 500px;
-  background: linear-gradient(orangered,white);
+  background: linear-gradient(orangered, #999595);
 
 
 }
@@ -112,3 +114,70 @@ header nav ul li a{
    background: white;
    color: orangered;
  }
+.another-half-width{
+  width: 40%;
+  float: left;
+  color: #131212;
+  padding: 10px;
+  height: 500px;
+  background: linear-gradient(#b1a9a9,orangered);
+
+
+}
+.another-half-width img{
+
+  width: 60%;
+  margin-left: 10px;
+  padding-left: 10px;
+
+
+
+}
+
+.About{
+
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+  width: 100%;
+  height: 400px;
+  margin-left: 5%;
+  padding: 3%;
+  color:white;
+
+
+}
+
+.About:hover{
+
+
+  animation:slideout 4s;
+}
+
+@keyframes slidein {
+  from {
+
+  transform: translateX(120);
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes slideout {
+  from {
+    margin-left: -100%;
+    width: 200%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+
