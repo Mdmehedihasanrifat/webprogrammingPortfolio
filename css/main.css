@@ -175,6 +175,7 @@ header nav ul li a{
   text-align: center;
   border-radius: 5px;
   align-items: center;
+  box-shadow: 5px 5px 5px 5px  black;
 }
 .one-third img{
 
