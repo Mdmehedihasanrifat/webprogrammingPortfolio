@@ -233,6 +233,15 @@ margin: auto;
 
   text-align: center;
 }
+
+.contact{
+
+  text-align: center;
+}
+.contact input{
+
+  padding: 5px;
+}
 @keyframes slidein {
   from {
 
@@ -258,4 +267,7 @@ margin: auto;
   }
 }
 
+footer{
 
+  text-align: center;
+}
